@@ -6,7 +6,7 @@ seafile:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host seafile.khuedoan.com
+        - host: &host seafile.172-28-0-3.nip.io
           paths:
             - path: /
               pathType: Prefix
