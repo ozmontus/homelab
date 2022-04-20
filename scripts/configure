@@ -42,7 +42,7 @@ def main() -> None:
         required_version='3.10.0'
     )
 
-    editor = Prompt.ask("Select text editor", default='nvim')
+    editor = Prompt.ask("Select text editor", default='vim')
     domain = Prompt.ask("Enter your domain", default=default_domain)
     seed_repo = Prompt.ask("Enter seed repo", default=default_seed_repo)
     timezone = Prompt.ask("Enter time zone", default=default_timezone)

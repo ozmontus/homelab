@@ -13,7 +13,7 @@ run:
 		--interactive \
 		--tty \
 		--network host \
-		--env "TERM=${TERM}" \
+		--env "TERM=xterm-256color" \
 		--env "HOME=${HOME}" \
 		--volume "${HOME}:${HOME}" \
 		--volume "/var/run/docker.sock:/var/run/docker.sock" \
