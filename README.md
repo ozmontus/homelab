@@ -140,7 +140,7 @@ They can't capture all of the project's features, but they are sufficient to get
     <td>Ephermeral PXE server and convenient tools container</td>
   </tr>
   <tr>
-    <td><img width="32" src="https://github.com/kubernetes-sigs/external-dns/raw/master/img/external-dns.png"></td>
+    <td><img width="32" src="https://github.com/kubernetes-sigs/external-dns/raw/master/docs/img/external-dns.png"></td>
     <td><a href="https://github.com/kubernetes-sigs/external-dns">ExternalDNS</a></td>
     <td>Synchronizes exposed Kubernetes Services and Ingresses with DNS providers</td>
   </tr>
@@ -261,6 +261,7 @@ If not, see <https://www.gnu.org/licenses>.
 - [Official k3s systemd service file](https://github.com/k3s-io/k3s/blob/master/k3s.service)
 - [Official Cloudflare Tunnel examples](https://github.com/cloudflare/argo-tunnel-examples)
 - [Initialize GitOps repository on Gitea and integrate with Tekton by RedHat](https://github.com/redhat-scholars/tekton-tutorial/tree/master/triggers)
+- [SSO configuration from xUnholy/k8s-gitops](https://github.com/xUnholy/k8s-gitops)
 
 ## Stargazers over time
 
